@@ -576,6 +576,12 @@ box-shadow:
 .skills__java {
   width: 70%;
 }
+.skills__python {
+  width: 50%;
+}
+.skills__ch {
+  width: 40%;
+}
 .skills__vb {
   width: 60%;
 }
