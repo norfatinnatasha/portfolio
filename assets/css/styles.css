@@ -848,6 +848,12 @@ box-shadow:
   font-family: var(--body-font);
 }
 
+.portfolio__buttons {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
 .portfolio__modal {
   position: fixed;
   top: 0;
