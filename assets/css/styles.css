@@ -851,13 +851,16 @@ box-shadow:
 .portfolio__section-action {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 1.5rem;
+  max-width: 768px;        
+  margin: 0 auto 1.5rem;  
+  padding-right: 0.25rem;
 }
 
 .portfolio__button--narrow {
-  padding: 0.4rem 0.9rem; /* narrower width */
-  font-size: 0.85rem;    /* slightly smaller text */
+  padding: 0.4rem 0.9rem;
+  font-size: 0.85rem;
 }
+
 .portfolio__modal {
   position: fixed;
   top: 0;
