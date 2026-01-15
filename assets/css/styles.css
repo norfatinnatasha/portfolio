@@ -848,9 +848,15 @@ box-shadow:
   font-family: var(--body-font);
 }
 
-.portfolio__section-button {
-  text-align: center;
-  margin-bottom: 2rem;
+.portfolio__section-action {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+.portfolio__button--narrow {
+  padding: 0.4rem 0.9rem; /* narrower width */
+  font-size: 0.85rem;    /* slightly smaller text */
 }
 .portfolio__modal {
   position: fixed;
