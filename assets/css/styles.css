@@ -591,6 +591,9 @@ box-shadow:
 .skills__oracle {
   width: 40%;
 }
+.skills__postgresql {
+  width: 40%;
+}
 .skills__canva {
   width: 90%;
 }
